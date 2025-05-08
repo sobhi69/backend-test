@@ -3,7 +3,7 @@ const app = express()
 const port = 3006   
 import userRouter from './routes/user'
 app.get('/',(req,res) => {
-    res.json({message:"Thanks God"})
+    res.json({message:"Thanks God           1"})
 })
 
 
