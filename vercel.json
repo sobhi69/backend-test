@@ -3,7 +3,7 @@
     "buildCommand":"tsc",
     "builds": [
       {
-        "src": "dist/index.js",
+        "src": "src/index.ts",
         "use": "@vercel/node",
         "config": { "includeFiles": ["dist/**"] }
       }
